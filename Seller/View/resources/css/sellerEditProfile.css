@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Public Sans', sans-serif;
+}
+body{
+    overflow-x: hidden;
+    height:100vh;
+}
+.seller_edit_profile_page,.main-page{
+    max-height:100vh;
+    background-color:var(--secondary-skyblue)!important;
+}
+.edit_nav{
+    max-height:100% !important;
+    background-color:var(--primary-blue);
+}
+.nav_logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav_text,.web_name{
+    color:var(--text-color-white);
+}
+.web_name{
+    font-family:"DM Serif Display","sans-serif";
+    font-size: 1.2em;
+}
+.feedback_gp{
+    display:flex;
+}
+/* page */
+.box2{
+    margin-left:13% !important;
+}
+.edit_photo_bg{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:4em;
+    height:4em;
+    margin-left:15%;
+    border-radius:50%;
+    background-color: var(--text-color-white);
+}
+.editPhoto{
+    position:absolute;
+}
+.profile_banner{
+    position:relative;
+    margin-left:23%;
+    
+}
+.label_box_row{
+    display:flex;
+}
+.label_box{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+}
+.corner_label{
+    left:0;
+}
+.input_box{
+    width:19em !important;
+    height:2.3em !important;
+    border-radius:0.5em;
+    border-style:none;
+}
+.input_box::placeholder{
+    text-align: center;
+}
+.btns{
+    width:8.7em;
+    height:2.3em;
+    border-radius:0.5em;
+    border-style:none;
+    color:var(--text-color-white);
+}
+.saveBtn{
+    background-color: var(--primary-blue);
+}
+.cancelBtn{
+    background-color: var(--red-color);
+}
+.column2{
+    padding:0 !important;
+}
+
+/* choose file button */
+.form-control{
+    background-color:var(--primary-blue) !important;
+    color:var(--text-color-white) !important;
+    width:15.5em !important;
+    border-radius:0 !important;
+}
+
+
+@media screen and (max-width:720px){
+    body{
+        overflow-x: hidden;
+    }
+    .web_name,.title{
+        display:none !important;
+    }
+    .web_logo{
+        width:65% !important;
+        margin-left:15%;
+    }
+    .nav_text{
+        text-align: center;
+        margin-top:15%;
+    }
+    .cFeedback{
+        margin-left:17%;
+    }
+    .edit_nav{
+        position:fixed;
+        height:100vh !important;
+        background-color: var(--primary-blue)!important ;
+    }
+    .label_box_row{
+        display:flex;
+        flex-direction:column !important;
+    }
+    .input_box,.label_box{
+        margin-left:0;
+    }
+    .edit_photo_bg{
+        margin-left:25%;
+    }
+    .box2{
+        margin-left:23% !important;
+    }
+    .profile_banner{
+        margin-left:10%;
+    }
+    .icons{
+        width:1.8em;
+        margin:0.3em;
+    }
+    .cFeedback{
+        margin-left:32%;
+    }
+}

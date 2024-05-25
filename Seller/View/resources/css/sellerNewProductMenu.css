@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Public Sans', sans-serif;
+}
+body{
+    overflow-x: hidden;
+    height:100vh;
+}
+.seller_new_product_menu_page{
+    max-height:100vh;
+    background-color:var(--secondary-skyblue)!important;
+}
+.edit_nav{
+    max-height:100% !important;
+    background-color:var(--primary-blue);
+}
+.nav_logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav_text,.web_name{
+    color:var(--text-color-white);
+}
+.web_name{
+    font-family:"DM Serif Display","sans-serif";
+    font-size: 1.2em;
+}
+.feedback_gp{
+    display:flex;
+}
+.icons{
+    opacity:0.6;
+}
+.seller-photo{
+    width:8.5em;
+    height:8.5em;
+    background-color:aliceblue;
+}
+.form-control{
+    width:15.5em !important;
+    background-color:var(--primary-blue) !important;
+    color:var(--text-color-white) !important;
+    border-radius:0 !important;
+}
+.first-row-first{
+    width:15.5em;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left:9%;
+}
+.first-row{
+    display:flex;
+}
+.label-box{
+    display:flex;
+    flex-direction: column;
+}
+.input-box{
+    width:22em;
+    height:2em;
+    border-style:none;
+    border-radius:0.2em;
+}
+.btns{
+    width:10em !important;
+    height:2.2em;
+    border-radius:0.3em;
+    border-style:none;
+    color:var(--text-color-white);
+}
+.add-btn{
+    background-color:var(--primary-blue);
+}
+.cancel-btn{
+    background-color:var(--red-color);
+}
+tr{
+    width:6em !important;
+    height:2.5em;
+}
+.t-head{
+    color:var(--text-color-white);
+    background-color:var(--primary-blue) !important;
+}
+.color-tr{
+    background-color:var(--primary-blue);
+    opacity:0.2;
+}
+.second-row{
+    position:relative;
+}
+.product-menu-text{
+    margin-left:35%;
+}
+.pagination{
+    margin-left:30%;
+}
+.p-one{
+    color:var(--text-color-white) !important;
+    background-color:var(--primary-blue) !important;
+}
+.great,.less{
+    color:var(--primary-blue) !important;
+}
+
+
+
+
+@media screen and (max-width:720px){
+    body{
+        overflow-x: hidden;
+    }
+    .web_name,.title{
+        display:none !important;
+    }
+    .web_logo{
+        width:65% !important;
+        margin-left:15%;
+    }
+    .nav_text{
+        text-align: center;
+        margin-top:15%;
+    }
+    .icons{
+        width:45%;
+        margin:0.3em;
+    }
+    .edit_nav{
+        position:fixed;
+        height:100vh !important;
+        background-color: var(--primary-blue)!important ;
+    }
+    .cFeedback{
+        margin-left:17%;
+    }
+    .logout{
+        top:15%;
+    }
+    .first-row-second{
+        margin-left:35% !important;
+    }
+}
